@@ -7,4 +7,5 @@ Para teste utilizei uma imagem docker para criar um container.
 
 #Executando o docker
 docker build -t yourapplication .
+
 docker run -t -d -p 8080:5004 yourapplication
